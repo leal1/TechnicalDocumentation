@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: content-box;
 }
+html, body{
+	font-family: 'Open Sans', Arial, 'Times New Roman';
+}
 #navbar{
 	position: fixed;
 	left: 0; top: 0;
@@ -46,4 +49,36 @@
 #main-doc{
 	margin-left: 320px;
 	padding: 20px 20px;
+	line-height: 1.5;
 }
+section{
+	padding: 20px 40px;
+}
+.section-header{
+	font-size: 22pt;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+section p, section li, section code{
+	margin-left: 20px;
+	font-size: 14pt;
+}
+ code {
+	display: block;
+	text-align: left;
+	white-space: pre;
+
+	line-height: 2;
+	background-color: #f7f7f7;
+	padding: 20px;
+	margin: 15px;
+	border-radius: 25px;
+
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  #navbar ul{
+  border:1px solid;
+    height:207px;
+  }

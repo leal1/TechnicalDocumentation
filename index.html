@@ -27,7 +27,7 @@
 	<main id="main-doc">
 
 		<section id="Introduction" class="main-section">
-			<h2 class="section-header"> Introduction </h2>
+			<header class="section-header"> Introduction </header>
 		
 			<p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
 
@@ -40,7 +40,7 @@
 		</section>
 
 		<section id="What_you_should_already_know" class="main-section">
-			<h2 class="section-header"> What you should already know </h2>
+			<header class="section-header"> What you should already know </header>
 			    <p>This guide assumes you have the following basic background:</p>
 
 	      		<li>A general understanding of the Internet and the World Wide Web (WWW).</li>
@@ -50,7 +50,7 @@
 		</section>
 
 		<section id="Javascript_and_Java" class="main-section">
-			<h2 class="section-header"> Javascript and Java </h2>
+			<header class="section-header"> Javascript and Java </header>
 			    <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
 
 				<p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
@@ -59,7 +59,7 @@
 		</section>
 
 		<section id="Hello_World" class="main-section">
-			<h2 class="section-header"> Hello World </h2>
+			<header class="section-header"> Hello World </header>
 			<p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
 			<code>function greetMe(yourName) {
 			  alert("Hello " + yourName);
@@ -71,7 +71,7 @@
 		</section>
 
 		<section id="Variables" class="main-section">
-			<h2 class="section-header"> Variables </h2>
+			<header class="section-header"> Variables </header>
 
 			<p> You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules. </p>
 
@@ -84,7 +84,7 @@
 		</section>
 
 		<section id="Declaring_Variables" class="main-section">
-			<h2 class="section-header"> Declaring Variables </h2>
+			<header class="section-header"> Declaring Variables </header>
 			<p> You can declare a variable in three ways: </p>
 			<p> With the keyword var. For example, <code>var x = 42.</code> This syntax can be used to declare both local and global variables. </p>
 			<p> By simply assigning it a value. For example, <code>x = 42.</code> This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant. </p>
@@ -92,7 +92,7 @@
 		</section>
 
 		<section id="Variable_Scope" class="main-section">
-			<h2 class="section-header"> Variable Scope </h2>
+			<header class="section-header"> Variable Scope </header>
 
     		<p> When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
 
@@ -112,7 +112,7 @@
 		</section>
 
 		<section id="Global_Variables" class="main-section">
-			<h2 class="section-header"> Global Variables </h2>
+			<header class="section-header"> Global Variables </header>
 
 			<p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
 
@@ -120,7 +120,7 @@
 		</section>
 
 		<section id="Constants" class="main-section">
-			<h2 class="section-header"> Constants </h2>
+			<header class="section-header"> Constants </header>
 
 			<p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
 
@@ -149,10 +149,10 @@
 		</section>
 
 		<section id="Data_Types" class="main-section">
-			<h2 class="section-header"> Data Types </h2>
+			<header class="section-header"> Data Types </header>
 			<p>The latest ECMAScript standard defines seven data types:</p>
 
-		    <li><p>Six data types that are primitives:</p>
+		<p> Six data types that are primitives:</p>
 		<ul>
 		  <li>Boolean. true and false.</li>
 		<li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
@@ -165,7 +165,7 @@
 		</section>
 
 		<section id="if...else_Statement" class="main-section">
-			<h2 class="section-header"> if...else Statement </h2>
+			<header class="section-header"> if...else Statement </header>
 
 			<p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows: </p>
 
@@ -208,7 +208,7 @@
 		</section>
 
 		<section id="while_Statement" class="main-section">
-			<h2 class="section-header"> while Statement </h2>
+			<header class="section-header"> while Statement </header>
 			<p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
 
 			<code>while (condition)
@@ -238,7 +238,7 @@ while (n < 3) {
 		</section>
 
 		<section id="Function_Declarations" class="main-section">
-			<h2 class="section-header"> Function Declarations </h2>
+			<header class="section-header"> Function Declarations </header>
 			<p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
 
 	      <li>The name of the function.</li>
@@ -256,7 +256,7 @@ while (n < 3) {
 		</section>
 
 		<section id="Reference" class="main-section">
-			<h2 class="section-header"> Reference </h2>
+			<header class="section-header"> Reference </header>
       		<li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
 		</section>
 
