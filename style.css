@@ -42,6 +42,7 @@ html, body{
 #navbar header {
 	font-size: 24pt;
 	padding-bottom: 40px;
+	padding-top: 15px;
 }
 .nav-link{
 	margin-top: 80px;
